@@ -1,0 +1,166 @@
+@import '../../app/globals.css'
+
+.section1 {}
+
+
+.linkTagStyle {
+  text-decoration: none;
+  color: black;
+}
+
+
+.linkTagStyle:hover {
+  text-decoration: underline;
+  text-decoration-color: black;
+  -moz-text-decoration-color: black;
+  text-decoration-thickness: 1px;
+}
+
+.productSupportLabel {
+  margin-top: 40px;
+}
+
+.footerContainer {
+  background-color: var(--primary_color);
+
+}
+
+.footerMain {
+  /* padding: 0 107.7px; */
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footerContainerInner {
+
+  display: grid;
+  grid-template-columns: 35% 20% 20% 20%;
+  gap: 20px;
+  padding: 100px 107.7px 70px;
+}
+
+.footerPara {
+  color: var(--black-38, rgba(0, 0, 0, 0.38));
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.857px;
+  margin-bottom: 12px;
+  max-width: 394px;
+}
+
+.section2Header {
+
+  color: var(--black-87, rgba(0, 0, 0, 0.87));
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-bottom: 20px;
+}
+
+/* className={classes.productSupportLabel}  */
+
+
+.sectionUl>.sectionLI {
+  list-style-type: none;
+}
+
+.sectionLI {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.footerTwoContainer {
+  background: #fffaf8;
+}
+
+.footerTwoContainer1 {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 107px 40px;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.smallText {
+  color: var(--black-38, rgba(0, 0, 0, 0.38));
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.termsTagStyle {
+  text-decoration: none;
+  color: #939393;
+}
+
+.termsTagStyle:hover {
+  text-decoration: underline;
+  text-decoration-color: #939393;
+  -moz-text-decoration-color: #939393;
+  text-decoration-thickness: 1px;
+}
+
+.iconContainer {
+  margin-top: 10px;
+  /* margin-bottom: 59px; */
+  display: flex;
+  gap: 10px;
+}
+
+.socialIcons {
+  opacity: 1;
+}
+
+.socialIcons:hover {
+
+  opacity: 0.6;
+}
+
+.footerTwoTextContainer {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+
+@media (max-width: 600px) {
+  .footerContainerInner {
+    display: block;
+    padding: 50px 20px;
+  }
+
+  .section1BrandContainer {
+    margin-bottom: 18px;
+  }
+
+  .footerTwoContainer1 {
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    /* margin: auto; */
+    align-items: baseline;
+  }
+
+  .footerTwoTextContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 38px;
+    align-items: baseline;
+  }
+
+  .mainBrandLogo {
+    margin: 18px 0 40px;
+  }
+}

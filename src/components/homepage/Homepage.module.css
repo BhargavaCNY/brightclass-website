@@ -1,0 +1,420 @@
+.section1Background {
+  background: #FFFAF8;
+}
+
+.section1 {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section2,
+.section3 {
+  margin: 0 auto;
+}
+
+.section2 {
+  background: #FFFAF8;
+}
+
+.section2Container {
+  padding: 107.7px 107.7px 22px;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.setcion3 {
+  /* padding: 0 107.7px; */
+  background: #FFFAF8;
+
+}
+
+.section3Inner {
+  padding: 0 107px 20px 107px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section4background {
+  background: #fff5f0;
+}
+
+.section4 {
+  padding: 0 107.7px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section4Title {
+  color: #000;
+  text-align: center;
+  font-size: 36px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 120px;
+  text-align: center;
+
+}
+
+.section4subLabel {
+  color: #000;
+  font-size: 20px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.section4smallText {
+  color: var(--black-60, rgba(0, 0, 0, 0.60));
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26.038px;
+
+}
+
+.section4TextContainer {
+  padding-top: 20.33px;
+  margin-left: 20px;
+}
+
+
+.section4InnerContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  padding: 107px 0;
+}
+
+.section5 {
+  padding: 74px 107px 144px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section5background {
+  background: #FFFAF8;
+}
+
+.section5Title {
+  color: #000;
+  text-align: center;
+  font-size: 36px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 72px;
+  text-align: center;
+  padding: 0;
+  padding-bottom: 38px;
+}
+
+.cardsContainer {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: 1fr 1fr 1fr;
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+
+
+.section6 {
+  padding: 0 107px 0;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section6background {
+  background: #FFFAF8;
+}
+
+.section6Title {
+  color: #000;
+  text-align: center;
+  font-size: 36px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 124px;
+  text-align: center;
+  padding: 0;
+  padding-bottom: 38px;
+}
+
+
+.twoD_Button {
+  border: 1px solid black;
+  color: #000;
+  text-align: center;
+  font-size: 16px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.278px;
+  height: 50px;
+  width: 160px;
+  background: transparent;
+  border-radius: 8px;
+}
+
+.twoD_Button:hover {
+  background: #ff7d3c;
+}
+
+/* .twoD_Button::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 9px;
+  border-style: solid;
+  border-color: #ff7d3c transparent transparent transparent;
+} */
+
+.twoD_Button:hover::after {
+  /* border-color: #FF5C0B transparent transparent transparent; */
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 9px;
+  border-style: solid;
+  border-color: #ff7d3c transparent transparent transparent;
+
+}
+
+.buttonsContainer {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  margin-bottom: 45px;
+}
+
+.section7 {
+  padding: 0 107.7px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section7background {
+  background: #FFFAF8;
+}
+
+.section7Title {
+  color: #000;
+  text-align: center;
+  font-size: 36px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 124px;
+  text-align: center;
+  padding: 0;
+  padding-bottom: 38px;
+  padding-top: 71px;
+}
+
+.section7CardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  margin-top: 32px;
+}
+
+.section8 {
+  padding: 0 107.7px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.section8background {
+  background: #FFFAF8;
+}
+
+.section8Title {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 132px;
+}
+
+.section8Table {
+  padding: 0 223px;
+  margin-top: 50px;
+}
+
+.section9Title {
+  color: #000;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding-top: 132px;
+
+}
+
+.section9 {
+  max-width: 1440px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 0 107.7px 107.7px;
+}
+
+
+.section9background {
+  background: #FFFAF8;
+}
+
+
+.section9Para {
+  color: rgba(0, 0, 0, 0.40);
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.023%;
+  padding-top: 10px;
+  padding-bottom: 24px;
+}
+
+
+
+@media (max-width: 600px) {
+
+  .section2Container {
+    padding: 34px 0;
+  }
+
+  .section3Inner {
+    padding: 20px;
+    padding-top: 0;
+
+  }
+
+  .section4 {
+    padding: 0 20px;
+  }
+
+  .section4Title {
+    font-size: 24px;
+    padding-top: 86px;
+
+  }
+
+  .section4InnerContainer {
+    grid-template-columns: unset;
+    gap: 60px;
+    padding: 40px 0;
+  }
+
+  .section4subLabel {
+    font-size: 16px;
+  }
+
+  .section4smallText {
+    font-size: 12px;
+  }
+
+  .section4TextContainer {
+    padding-top: 10px;
+
+  }
+
+  .section5 {
+    padding: 50px 20px;
+  }
+
+  .section5Title {
+    font-size: 24px;
+    padding-bottom: 20px;
+  }
+
+  .cardsContainer {
+    grid-template-columns: unset;
+    gap: 20px;
+    grid-gap: 20px;
+  }
+
+  .section6 {
+    padding: 0 20px 0;
+  }
+
+  .section6Title {
+    font-size: 24px;
+  }
+
+  .twoD_Button {
+    font-size: 12px;
+  }
+
+  .buttonsContainer {
+    gap: 1px;
+  }
+
+  .section7 {
+    padding: 0 20px;
+  }
+
+  .section7Title {
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    padding-top: 70px;
+  }
+
+  .section7CardContainer {
+    grid-template-columns: unset;
+    margin-top: 20px;
+  }
+
+  .section8 {
+    padding: 0 20px;
+  }
+
+  .section8Table {
+    margin: 0px;
+    padding: 0;
+  }
+
+  .section8Title {
+    font-size: 24px;
+    padding-top: 77px;
+    padding-bottom: 20px;
+  }
+
+  .section9 {
+    padding: 0 20px;
+    padding-bottom: 70px;
+
+  }
+
+  .section9Title {
+    font-size: 24px;
+    padding-top: 77px;
+  }
+
+  .section9Para {
+    font-size: 12px;
+  }
+
+}

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;700&display=swap');
+
+.section1 {
+  position: relative;
+}
+
+.section1TextContainer {
+  position: absolute;
+  top: 31%;
+  left: 107.7px;
+}
+
+.birdHubLabel {
+  color: #000;
+  font-size: 64px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130.523%;
+  margin: 0;
+  margin-bottom: 20px;
+  max-width: 709px;
+}
+
+.birdHubSmallText {
+  color: rgba(0, 0, 0, 0.40);
+  font-size: 24px;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140.023%;
+  margin-bottom: 15px;
+  max-width: 700px;
+}
+
+.shopHubBtn {
+  background: #FF7D3C !important;
+  border-radius: 4px !important;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  font-style: normal;
+  line-height: 19px;
+  letter-spacing: 0.01em;
+  margin-top: 16px;
+  width: max-content;
+  box-shadow: none;
+
+
+  color: #000;
+  text-align: center;
+  font-size: 16px !important;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 700 !important;
+  line-height: normal;
+  letter-spacing: 0.278px;
+}
+
+/* ///// */
+
+.pushable {
+  background: #fff;
+  border-radius: 12px;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  outline-offset: 4px;
+  border: 1px solid black;
+}
+
+.front {
+  display: block;
+  padding: 12px 42px;
+  border-radius: 12px;
+  font-size: 1.25rem;
+  background: #FF7D3C;
+  border: 1px solid black;
+  color: white;
+  transform: translateY(-6px);
+}
+
+.pushable:active .front {
+  transform: translateY(-2px);
+}
+
+/* /// */
+.pushable::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  background: #f9c4d2;
+  box-shadow: 0 0 0 2px #b18597, 0 .625em 0 0 #ffe3e2;
+  transform: translate3d(0, .75em, -1em);
+  transition: .15s cubic-bezier(0, 0, .6, 1);
+}
+
+
+/* //// */
+
+
+@media (max-width: 600px) {
+
+  /* .section1 { */
+  .section1TextContainer {
+    bottom: 20px;
+    left: 20px;
+    top: unset;
+    position: unset;
+    color: white;
+    padding: 20px;
+  }
+
+  .birdHubLabel {
+    font-style: normal;
+    font-weight: 700;
+    color: #000;
+    font-family: Inter;
+    font-size: 30px;
+    line-height: 130.523%;
+  }
+
+  .birdHubSmallText {
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140.023%;
+  }
+
+}

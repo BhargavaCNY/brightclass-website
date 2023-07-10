@@ -1,0 +1,31 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 15px;
+  border: 2px solid #3C4147;
+  box-shadow: 5px 5px 0px #3C4147;
+  border-radius: 10px;
+  width: 193px;
+  margin-bottom: 14px;
+}
+
+.label1 {
+  color: #3C4147;
+  font-family: Inter;
+  font-size: 9.424px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.164px;
+}
+
+.label2 {
+  color: #3C4147;
+  font-family: Inter;
+  font-size: 18.502px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30.109px;
+
+}
